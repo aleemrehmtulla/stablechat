@@ -112,8 +112,8 @@ const Chat = () => {
         md: 48,
       }}
     >
-      <VStack>
-        <Heading size="xl" pb={4}>
+      <VStack spacing={0} w="full">
+        <Heading size="xl" pb={2}>
           Stable Chat 🌍🦒
         </Heading>
         <Text
@@ -239,6 +239,13 @@ const Chat = () => {
           }}
         />
       </HStack>
+      <Text
+        fontSize={{ base: "sm", md: "md" }}
+        textAlign={"center"}
+        color="gray.500"
+      >
+        expect a response in 5-15 seconds, if not, gpus are probably scaling!
+      </Text>
     </VStack>
   );
 };
