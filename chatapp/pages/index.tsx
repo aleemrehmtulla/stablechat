@@ -243,6 +243,8 @@ const Chat = () => {
         fontSize={{ base: "sm", md: "md" }}
         textAlign={"center"}
         color="gray.500"
+        pos="absolute"
+        bottom={{ base: 5, md: 10 }}
       >
         expect a response in 5-15 seconds, if not, gpus are probably scaling!
       </Text>
