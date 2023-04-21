@@ -247,8 +247,8 @@ const Chat = () => {
         pos="absolute"
         bottom={{ base: 5, md: 10 }}
       >
-        due to low interest -- i've shutdown always-on workers. it'll take 3-7
-        minutes for a coldstart. you can also run locally{" "}
+        due to low interest -- i&apos;ve shutdown always-on workers. it&apos;ll
+        take 3-7 minutes for a coldstart. you can also run locally{" "}
         <Link
           href="https://github.com/aleemrehmtulla/stablechat"
           isExternal
