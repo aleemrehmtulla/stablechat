@@ -1,3 +1,6 @@
+# [DEPLOYMENT INACTIVE - MUST RUN LOCALLY]
+
+
 # Stable Chat 🌍🦒
 
 The company behind Stable Diffusion just launched their own LLM, StableLM. This repo includes a Runpod.io instance to host the model using their serverless GPUs, along with a chatbot interface to interact with the model in a friendly way (:
